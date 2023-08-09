@@ -1,32 +1,19 @@
-### Section 4: Understanding Build Systems and Compilers
+### Section 4: Understanding Compilation and Linking Process
 
-In this section, we'll delve into the world of build systems and compilers, essential tools for any C++ developer. We'll explore popular build systems like CMake and Make, and understand the compilation and linking process.
+In this section, we'll delve into the essential aspects of C++ development: the compilation and linking process. We'll explore how the compiler translates C++ code into machine code and how the linker combines object files and libraries to create an executable.
 
-#### Introduction to Build Systems:
-- **CMake**: Learn about CMake, a cross-platform build system that automates the build process.
-- **Make**: Understand Make, a build automation tool that reads `Makefile`s to build programs.
+#### Understanding Compilation:
+- **Source Code to Object Code**: Explore how the compiler translates C++ source code into machine-readable object code.
+- **Compiler Options**: Learn about various compiler options and flags that can be used to control the compilation process.
 
-#### Understanding Compilation and Linking Process:
-- **Compilation**: Explore how the compiler translates C++ code into machine code.
-- **Linking**: Understand how the linker combines object files and libraries to create an executable.
-
-#### Writing a Basic CMake Configuration File:
-1. **Create a CMake File**: Create a file named `CMakeLists.txt`.
-2. **Set Minimum Version**: Define the minimum required version of CMake using `cmake_minimum_required(VERSION 3.10)`.
-3. **Project Name**: Set the project name using `project(HelloWorld)`.
-4. **Add Executable**: Define the executable and its source files using `add_executable(HelloWorld hello.cpp)`.
-
-#### Example CMake Configuration File:
-```cmake
-cmake_minimum_required(VERSION 3.10)
-project(HelloWorld)
-add_executable(HelloWorld hello.cpp)
-```
+#### Understanding Linking:
+- **Combining Object Files**: Understand how the linker combines object files and libraries to create an executable binary.
+- **Linker Options**: Familiarize yourself with common linker options and how they influence the linking process.
 
 #### Practice Exercises:
-- **Create a CMake Project**: Write a CMake configuration file for a simple project.
-- **Compile with Different Compilers**: Experiment with compiling the project using different compilers like GCC and Clang.
+- **Compile a Simple Program**: Write a simple C++ program and compile it using a command-line compiler like GCC or Clang.
+- **Link Multiple Object Files**: Experiment with linking multiple object files to create a complete executable.
 
 ---
 
-This section provides an in-depth understanding of build systems and compilers, essential tools for C++ development. By the end of this lesson, you'll have a foundational understanding of CMake and Make, and you'll be able to write a basic CMake configuration file.
+This section provides an in-depth understanding of the compilation and linking process, essential steps in C++ development. By the end of this lesson, you'll have a foundational understanding of how to use the compiler and linker to create executable programs.
