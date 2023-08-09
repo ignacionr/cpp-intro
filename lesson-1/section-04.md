@@ -1,6 +1,3 @@
-Certainly! Here's the updated content for Section 4, with the suggested file name, sample command line for compiling, explanation about compiler errors, and example comments in the sample code:
-
-```markdown
 ### Section 4: Basic Syntax and Printing in C++
 
 In this section, we'll introduce you to the fundamental syntax of C++ and guide you through writing your first C++ program that prints text to the console.
