@@ -1,16 +1,16 @@
 # Lesson 1: Setting Up C++ Environment
 
-## Section 1: Introduction to C++ Programming
+## [Section 1: Introduction to C++ Programming](section-01.md)
 - Brief History of C++
 - Overview of Modern C++ Features
 - Applications and Importance of C++
 
-## Section 2: Installing Visual Studio Code
+## [Section 2: Installing Visual Studio Code](section-02.md)
 - Downloading and Installing Visual Studio Code
 - Exploring the Interface and Features
 - Installing Essential C++ Extensions
 
-## Section 3: Compiler Setup for Different OS
+## [Section 3: Compiler Setup for Different OS](section-03.md)
 
 ### Windows 11:
 - Installing MinGW or MSVC (Visual Studio Build Tools)
@@ -27,22 +27,22 @@
 - Configuring Build Tools and Libraries
 - Creating and Running a Simple C++ Program
 
-## Section 4: Understanding Build Systems and Compilers
+## [Section 4: Understanding Build Systems and Compilers](section-04.md)
 - Introduction to Build Systems (CMake, Make)
 - Understanding Compilation and Linking Process
 - Writing a Basic CMake Configuration File
 
-## Section 5: Version Control with Git (Optional)
+## [Section 5: Version Control with Git (Optional)](section-05.md)
 - Installing Git
 - Basic Git Commands and Workflow
 - Integrating Git with Visual Studio Code
 
-## Section 6: Hands-On Exercises and Examples
+## [Section 6: Hands-On Exercises and Examples](section-06.md)
 - Creating Your First C++ Project
 - Building and Running a "Hello World" Program
 - Exploring Basic Debugging Features
 
-## Section 7: Summary and Review
+## [Section 7: Summary and Review](section-07.md)
 - Key Takeaways from the Lesson
 - Self-Assessment Quiz or Challenge
 - Recommended Resources for Further Study
