@@ -27,10 +27,10 @@
 - Configuring Build Tools and Libraries
 - Creating and Running a Simple C++ Program
 
-## [Section 4: Understanding Build Systems and Compilers](section-04.md)
-- Introduction to Build Systems (CMake, Make)
-- Understanding Compilation and Linking Process
-- Writing a Basic CMake Configuration File
+## [Section 4: Understanding Compilation and Linking Process](section-04.md)
+- Understanding Compilation
+- Understanding Linking
+- Practice Exercises
 
 ## [Section 5: Version Control with Git (Optional)](section-05.md)
 - Installing Git
