@@ -1026,6 +1026,49 @@ Modern C++ has introduced several enhancements that lead to better quality softw
 - **Readability**: Clear syntax and standard practices enhance code readability and maintainability.
 - **Flexibility**: Modern C++ offers versatile tools for various programming paradigms.
 
+### Range-Based Loops, `std::array`, `std::make_shared`, `std::make_unique`, and Ownership Semantics in C++
+
+Here's an overview that could be added to Lesson 7:
+
+- **Range-Based Loops**: Modern C++ introduced range-based `for` loops, which simplify iterating over containers like arrays and vectors.
+
+  ```cpp
+  int numbers[] = {1, 2, 3};
+  for (int number : numbers) {
+      std::cout << number << " ";
+  }
+  ```
+
+- **`std::array`**: The `std::array` container provides a safer and more convenient alternative to C-style arrays.
+
+  ```cpp
+  #include <array>
+  std::array<int, 3> numbers = {1, 2, 3};
+  ```
+
+- **`std::make_shared` and `std::make_unique`**: These functions simplify the creation of smart pointers and are more efficient than using `new`.
+
+  ```cpp
+  auto shared_ptr = std::make_shared<MyClass>();
+  auto unique_ptr = std::make_unique<MyClass>();
+  ```
+
+- **Ownership Semantics**: Understanding ownership is crucial when working with pointers in C++. Ownership defines who is responsible for managing the memory of an object. Smart pointers like `std::shared_ptr` and `std::unique_ptr` automate ownership management, reducing the risk of memory leaks.
+
+  ```cpp
+  std::unique_ptr<MyClass> owner = std::make_unique<MyClass>();
+  // Ownership can be transferred
+  std::unique_ptr<MyClass> new_owner = std::move(owner);
+  ```
+
+- **Move Semantics**: A brief introduction to move semantics and how it relates to smart pointers could enhance understanding.
+
+  ```cpp
+  MyClass obj;
+  std::unique_ptr<MyClass> ptr = std::make_unique<MyClass>(std::move(obj)); // Move constructor
+  ```
+
+
 #### Conclusion
 
 Arrays and smart pointers in modern C++ represent a significant advancement over legacy practices. By embracing modern standards and understanding the importance of clear rules for memory ownership, developers can create safer, more efficient, and maintainable software.
