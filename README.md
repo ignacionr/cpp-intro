@@ -22,7 +22,7 @@ This C++ course, has several unique features that might set it apart from other 
 
 2. **Emphasis on Modern Practices**: The course focuses on modern C++ practices, such as smart pointers, RAII, and the latest standard library features. This emphasis on up-to-date techniques may be more pronounced than in some other courses.
 
-3. **Holistic Understanding**: The course seems to go beyond mere syntax and coding. It includes philosophical insights, warnings about potential pitfalls, and encourages an understanding of programming as an art form. This holistic approach might be less common in more technically-focused courses.
+3. **Holistic Understanding**: The course goes beyond mere syntax and coding. It includes philosophical insights, warnings about potential pitfalls, and encourages an understanding of programming as an art form. This holistic approach might be less common in more technically-focused courses.
 
 4. **Debugging Insights**: The course includes specific insights into debugging, such as the importance of initialization, invariant, and increment in the "for" control structure. This focus on debugging practices might be a unique aspect.
 
@@ -38,7 +38,7 @@ This C++ course, has several unique features that might set it apart from other 
 
 10. **Personal Touch**.
 
-These features collectively contribute to a course that appears to be not just about learning C++ but about understanding programming as a craft, an art, and a continuously evolving discipline. It seems to be designed to inspire as well as educate, which might make it stand out from more conventional C++ courses.
+These features collectively contribute to a course that appears to be not just about learning C++ but about understanding programming as a craft, an art, and a continuously evolving discipline. It is designed to inspire as well as educate, which might make it stand out from more conventional C++ courses.
 
 ---
 ### Estimations
