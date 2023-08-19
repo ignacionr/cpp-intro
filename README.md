@@ -1451,7 +1451,7 @@ File handling in C++ is versatile and powerful, allowing you to read, write, and
 
 In the next lesson, we'll explore the C++ Standard Library, including containers, algorithms, iterators, and more.
 
-—
+---
 
 #### Question 1: Reading from a File
 
