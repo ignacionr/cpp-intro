@@ -1,4 +1,4 @@
-### Introduction to C++ Programming Course
+# Introduction to C++ Programming Course
 
 Welcome to the exciting world of C++ programming! My name is Ignacio Rodríguez, and I'll be your guide on this incredible journey into the world of coding.
 
@@ -87,7 +87,7 @@ Setting up your C++ development environment is the first step in your programmin
 
 In the next lesson, we'll dive into the basic syntax of C++ and learn how to print output. Happy coding!
 
-—
+---
 
 ### Lesson 2: Basic Syntax and Printing in C++
 
@@ -100,6 +100,34 @@ However, it's worth noting that the console is not the only way to generate resp
 #### Understanding the Main Function
 
 In C++, the `main` function serves as the entry point for the program. When you run a C++ program, the execution starts from the `main` function. It must return an integer value, typically 0, to indicate successful execution. Any other value may signal an error. The `main` function can accept command-line arguments, but for our introductory examples, we'll keep it simple.
+
+Certainly! In Lesson 2, which focused on basic syntax, printing in C++, and introducing the console system, an interesting point that might have been missed could be the discussion of character encoding and how it affects text output.
+
+### Character Encoding in C++
+
+Character encoding is a method used to represent characters using binary code. In C++, understanding character encoding can be essential, especially when dealing with internationalization or working with non-ASCII characters.
+
+Here's a brief overview that could be added to Lesson 2:
+
+- **ASCII**: The American Standard Code for Information Interchange (ASCII) is a 7-bit character encoding standard that includes English letters, digits, and common symbols. It's widely supported but limited to a small character set.
+
+- **Extended ASCII**: An 8-bit extension of ASCII that includes additional characters, but its representation can vary between systems and languages.
+
+- **UTF-8**: A widely-used encoding that can represent any character in the Unicode standard. UTF-8 is compatible with ASCII but can also encode a vast array of international characters.
+
+- **Wide Characters**: C++ provides support for wide characters (`wchar_t`) and wide string literals (`L"string"`), allowing for the representation of characters outside the ASCII range.
+
+- **Locale**: The C++ Standard Library provides locale support, allowing programs to adapt to local conventions for character representation, date and time formatting, etc.
+
+#### Example: Printing UTF-8 Encoded String
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << u8"Привет, мир!" << std::endl; // Hello, world! in Russian
+    return 0;
+}
+```
 
 #### Tip for Windows Users
 
