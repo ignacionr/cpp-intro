@@ -593,6 +593,50 @@ for (initialization; condition; increment) {
 
 Having initialization, invariant, and increment in the same instruction is crucial for debugging purposes. It encapsulates the loop's control logic, making it easier to understand and maintain.
 
+### Switch Statements, Break/Continue, and Scope in C++
+
+Here's an overview that could be added to Lesson 5:
+
+- **Switch Statements**: The `switch` statement provides a way to handle multiple conditions based on the value of an expression. It can be more concise than a series of `if-else` statements for specific cases.
+
+  ```cpp
+  int choice = 2;
+  switch (choice) {
+      case 1:
+          std::cout << "Option 1 selected";
+          break;
+      case 2:
+          std::cout << "Option 2 selected";
+          break;
+      default:
+          std::cout << "Invalid option";
+  }
+  ```
+
+- **Break and Continue**: The `break` keyword is used to exit a loop or switch statement immediately, while the `continue` keyword skips the rest of the current iteration and continues with the next one.
+
+  ```cpp
+  for (int i = 0; i < 10; ++i) {
+      if (i % 2 == 0) continue; // Skip even numbers
+      std::cout << i << " "; // Prints odd numbers
+  }
+  ```
+
+- **Scope**: Understanding the scope of variables within loops and conditional statements is essential. Variables declared within a block (enclosed by `{}`) are only accessible within that block.
+
+  ```cpp
+  if (true) {
+      int x = 42; // x is only accessible within this block
+  }
+  // x is out of scope here
+  ```
+
+- **Ternary Operator**: The ternary operator (`?:`) provides a shorthand way to perform conditional assignments. It can make code more concise in specific situations.
+
+  ```cpp
+  int max = (a > b) ? a : b; // Assigns the greater of a and b to max
+  ```
+
 #### Extended Example: Guess a Number
 
 Let's explore an extended version of the "guess a number" game. We'll use a "for" loop to limit the number of attempts and provide feedback on whether the guess is too high or too low.
