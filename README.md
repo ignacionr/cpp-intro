@@ -13,6 +13,26 @@ So, let's embark on this journey together. Let's rediscover the childlike wonder
 Welcome to the world of C++, where creativity meets logic, and where you'll find both challenges and triumphs. Let's get started!
 
 ---
+### Estimations
+
+The total number of hours required to teach this C++ course depends on various factors, including the complexity of the topics, the depth of coverage, the proficiency of the students, and the teaching style. Here's a rough estimate for each lesson:
+
+1. **Lesson 1: Setting Up C++ Environment** - 1 hour
+2. **Lesson 2: Basic Syntax and Printing in C++** - 1.5 hours
+3. **Lesson 3: Variables and Data Types in C++** - 2 hours
+4. **Lesson 4: User Input and Output** - 1.5 hours
+5. **Lesson 5: Conditional Statements and Loops in C++** - 2 hours
+6. **Lesson 6: Functions and Recursion** - 2.5 hours
+7. **Lesson 7: Arrays and Smart Pointers in C++** - 2 hours
+8. **Lesson 8: Object-Oriented Programming (OOP) in C++** - 3 hours
+9. **Lesson 9: File Handling in C++** - 2 hours
+10. **Lesson 10: Introduction to the C++ Standard Library** - 3 hours
+
+These estimates include time for lectures, demonstrations, exercises, and Q&A sessions. Additional time may be required for assignments, projects, and exams.
+
+Total estimated time: **21.5 hours**
+
+---
 
 ### Lesson 1: Setting Up C++ Environment
 
