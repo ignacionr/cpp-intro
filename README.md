@@ -192,8 +192,6 @@ In the next lesson, we'll explore variables, data types, and constants in C++. K
 
 ---
 
-### Check-Up Questionnaire for Lesson 2
-
 1. **What is the primary purpose of the `main` function in a C++ program?**
    - A) To print output
    - B) To include libraries
@@ -297,13 +295,36 @@ C++11 introduced the `auto` keyword, allowing the compiler to automatically dedu
 auto name = "Anita"; // deduced as const char*
 ```
 
-#### Type Casting
+Certainly! In Lesson 3, which focused on variables and data types in C++, an interesting point that might have been missed could be the discussion of type inference and the `auto` keyword, along with the importance of strong typing.
 
-You can convert one data type to another using type casting. Here's an example:
+### Type Inference and Strong Typing in C++
 
-```cpp
-int integerPart = static_cast<int>(PI); // converts double to int
-```
+Understanding how to declare variables with explicit types is fundamental, but modern C++ also offers type inference, allowing the compiler to deduce the type of a variable based on its initialization.
+
+Here's an overview that could be added to Lesson 3:
+
+- **Type Inference with `auto`**: Introduced in C++11, the `auto` keyword allows the compiler to automatically deduce the type of a variable from its initializer. This can make code more concise and maintainable, especially when dealing with complex types.
+
+  ```cpp
+  auto x = 42; // int
+  auto y = 3.14; // double
+  auto name = "Ignacio"; // const char*
+  ```
+
+- **Strong Typing**: C++ is a strongly typed language, meaning that the type of a variable is known at compile time and must be adhered to. This helps catch errors early and promotes code safety.
+
+- **Type Casting**: While strong typing enforces type safety, C++ also provides mechanisms for type casting, allowing developers to convert between types when necessary. Understanding when and how to use type casting is essential for writing robust code.
+
+  ```cpp
+  int integer = static_cast<int>(3.14); // Explicit type casting from double to int
+  ```
+
+- **Type Aliases**: C++ allows developers to create type aliases using the `typedef` keyword or the `using` directive. This can make code more readable and allow for more flexible design.
+
+  ```cpp
+  using Integer = int; // Type alias for int
+  Integer value = 42;
+  ```
 
 #### Conclusion
 
