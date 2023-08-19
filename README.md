@@ -845,6 +845,45 @@ int multiply(int x, int y) {
 
 Functional programming emphasizes the use of pure functions, immutability, and declarative code. It leads to more predictable and maintainable code.
 
+### Function Overloading, Default Arguments, Inline Functions, and Function Pointers in C++
+
+Here's an overview that could be added to Lesson 6:
+
+- **Function Overloading**: C++ allows defining multiple functions with the same name but different parameters. This enables more flexible and intuitive function usage.
+
+  ```cpp
+  void print(int i) { std::cout << "Integer: " << i; }
+  void print(double d) { std::cout << "Double: " << d; }
+  ```
+
+- **Default Arguments**: Functions can have default values for some or all of their parameters, allowing more flexible calling.
+
+  ```cpp
+  void display(int x, int y = 10) { /* ... */ }
+  display(5); // y will be 10
+  ```
+
+- **Inline Functions**: Declaring a function as `inline` suggests to the compiler that it should attempt to generate inline code to reduce function call overhead. It's commonly used for small, frequently called functions.
+
+  ```cpp
+  inline int square(int x) { return x * x; }
+  ```
+
+- **Function Pointers and `std::function`**: C++ supports pointers to functions, allowing functions to be passed as arguments, stored in variables, etc. The `std::function` from the `<functional>` header provides a more flexible way to handle callable objects.
+
+  ```cpp
+  int add(int a, int b) { return a + b; }
+  int (*func_ptr)(int, int) = add; // Function pointer
+  std::function<int(int, int)> func = add; // Using std::function
+  ```
+
+- **Lambda Expressions**: Although mentioned in the lesson, further exploration of lambda expressions, closures, and capturing could provide a deeper understanding of modern C++ programming.
+
+  ```cpp
+  auto lambda = [x](int y) { return x + y; }; // Lambda with capture
+  ```
+
+
 #### Conclusion
 
 Functions and recursion are powerful tools in C++. They help us organize our code, manage responsibilities, and even adopt popular programming paradigms like functional programming. Understanding pure functions and the principles of functional programming can further enhance your ability to write clean and efficient code in C++.
