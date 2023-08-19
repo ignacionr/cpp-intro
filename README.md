@@ -62,12 +62,43 @@ Visual Studio Code (VS Code) is an excellent and free-to-use code editor that su
 
 #### Installing a C++ Compiler
 
-##### Windows
+Certainly! Here's the updated instruction for setting up the C++ environment on Windows using Windows Subsystem for Linux (WSL) 2:
 
-1. Download and install [MinGW](http://www.mingw.org/).
-2. Add the MinGW bin directory to your system's PATH environment variable.
-3. Verify the installation by opening a command prompt and typing `g++ --version`.
+#### Windows
 
+1. **Install Windows Subsystem for Linux (WSL) 2**:
+   - Open PowerShell as Administrator and run:
+     ```powershell
+     dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+     dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+     ```
+   - Restart your computer.
+   - Download and install the [Linux kernel update package](https://aka.ms/wsl2kernel).
+   - Set WSL 2 as the default version by running in PowerShell:
+     ```powershell
+     wsl --set-default-version 2
+     ```
+
+2. **Install a Linux Distribution**:
+   - Open Microsoft Store and search for a Linux distribution (e.g., Ubuntu).
+   - Click "Install" to download and install the distribution.
+
+3. **Set Up the Linux Environment**:
+   - Open the installed Linux distribution from the Start menu.
+   - Follow the prompts to create a user and set a password.
+   - Update the package lists and install the g++ compiler:
+     ```bash
+     sudo apt update
+     sudo apt install g++
+     ```
+
+4. **Verify the Installation**:
+   - Verify the installation by typing:
+     ```bash
+     g++ --version
+     ```
+
+By following these steps, you'll have a fully functional C++ development environment on Windows using WSL 2, allowing you to compile and run C++ programs within a Linux-like environment.
 ##### MacOS
 
 1. Install Xcode from the App Store.
