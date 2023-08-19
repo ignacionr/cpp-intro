@@ -13,6 +13,34 @@ So, let's embark on this journey together. Let's rediscover the childlike wonder
 Welcome to the world of C++, where creativity meets logic, and where you'll find both challenges and triumphs. Let's get started!
 
 ---
+
+### What sets this course apart from others
+
+This C++ course, has several unique features that might set it apart from other existing C++ courses:
+
+1. **Storytelling Approach**: The inclusion of narratives and storytelling adds a creative and engaging dimension that might not be common in traditional programming courses.
+
+2. **Emphasis on Modern Practices**: The course focuses on modern C++ practices, such as smart pointers, RAII, and the latest standard library features. This emphasis on up-to-date techniques may be more pronounced than in some other courses.
+
+3. **Holistic Understanding**: The course seems to go beyond mere syntax and coding. It includes philosophical insights, warnings about potential pitfalls, and encourages an understanding of programming as an art form. This holistic approach might be less common in more technically-focused courses.
+
+4. **Debugging Insights**: The course includes specific insights into debugging, such as the importance of initialization, invariant, and increment in the "for" control structure. This focus on debugging practices might be a unique aspect.
+
+5. **Comprehensive Check-up Sections**: The inclusion of detailed multiple-choice questions after each lesson, covering all concepts with code examples, ensures a thorough understanding and might be more comprehensive than typical review sections in other courses.
+
+6. **Emphasis on Functional Programming**: The course includes an exploration of functional programming in C++, including pure functions. This might be a more specialized topic that is not always covered in introductory or general C++ courses.
+
+7. **Inclusion of Warnings and Best Practices**: The course includes warnings about potential issues (e.g., unnecessary stiffness in OOP) and best practices (e.g., open/close pattern). This focus on not just what to do but also what to avoid might be a distinctive feature.
+
+8. **Practical Tips for Specific OS**: The course provides specific tips and instructions for different operating systems, including Windows, MacOS, and Linux. This attention to the practicalities of different development environments might be more detailed than in some other courses.
+
+9. **Integration of Legacy and Modern C++**: The course acknowledges legacy C++ practices but emphasizes modern techniques. This integration might provide a more well-rounded perspective, especially for those working with existing codebases.
+
+10. **Personal Touch**.
+
+These features collectively contribute to a course that appears to be not just about learning C++ but about understanding programming as a craft, an art, and a continuously evolving discipline. It seems to be designed to inspire as well as educate, which might make it stand out from more conventional C++ courses.
+
+---
 ### Estimations
 
 The total number of hours required to teach this C++ course depends on various factors, including the complexity of the topics, the depth of coverage, the proficiency of the students, and the teaching style. Here's a rough estimate for each lesson:
