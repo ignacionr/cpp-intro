@@ -1389,6 +1389,82 @@ Compile with:
 g++ -std=c++17 your_file.cpp -o output
 ```
 
+### File Streams in C++
+
+File streams are used to read and write data to files. There are three main types of file streams:
+
+- **Input File Stream (`ifstream`)**: Used to read data from a file.
+- **Output File Stream (`ofstream`)**: Used to write data to a file.
+- **File Stream (`fstream`)**: Used for both reading and writing.
+
+```cpp
+std::ifstream inputFile("input.txt"); // Reading from a file
+std::ofstream outputFile("output.txt"); // Writing to a file
+std::fstream ioFile("io.txt"); // Reading and writing
+```
+
+### Error Handling in File Operations
+
+When working with files, it's essential to handle potential errors, such as file not found, permission denied, etc. You can use the following functions:
+
+- `fail()`: Returns true if an error occurred.
+- `bad()`: Returns true if a critical error occurred.
+- `eof()`: Returns true if the end of the file is reached.
+
+```cpp
+std::ifstream file("file.txt");
+if (file.fail()) {
+    std::cerr << "Error opening file!" << std::endl;
+}
+```
+
+### Working with Binary Files
+
+Binary files store data in a format that is not human-readable. You can read and write binary files using the `ios::binary` mode:
+
+```cpp
+std::ofstream output("file.bin", std::ios::binary);
+std::ifstream input("file.bin", std::ios::binary);
+```
+
+### File Positioning
+
+File positioning allows you to navigate within a file. You can use the following functions:
+
+- `seekg()`: Sets the position of the input pointer.
+- `seekp()`: Sets the position of the output pointer.
+- `tellg()`: Returns the current position of the input pointer.
+- `tellp()`: Returns the current position of the output pointer.
+
+```cpp
+file.seekg(0, std::ios::beg); // Move to the beginning
+file.seekp(10, std::ios::cur); // Move 10 bytes forward from the current position
+```
+
+### Filesystem Library
+
+The filesystem library provides functionalities to work with directories, file attributes, and file paths:
+
+- **Working with Directories**: You can create, delete, and navigate directories.
+
+  ```cpp
+  std::filesystem::create_directory("new_directory");
+  ```
+
+- **File Attributes**: You can retrieve information like file size, file type, etc.
+
+  ```cpp
+  auto fileSize = std::filesystem::file_size("file.txt");
+  ```
+
+- **File Paths**: You can manipulate and query file paths.
+
+  ```cpp
+  std::filesystem::path path("file.txt");
+  auto extension = path.extension();
+  ```
+
+
 #### Conclusion
 
 File handling in C++ is versatile and powerful, allowing you to read, write, and manage files and directories with ease. By leveraging the C++ Standard Library and utilizing RAII, you can create efficient and portable code for various file operations.
