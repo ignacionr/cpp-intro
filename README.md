@@ -101,13 +101,9 @@ However, it's worth noting that the console is not the only way to generate resp
 
 In C++, the `main` function serves as the entry point for the program. When you run a C++ program, the execution starts from the `main` function. It must return an integer value, typically 0, to indicate successful execution. Any other value may signal an error. The `main` function can accept command-line arguments, but for our introductory examples, we'll keep it simple.
 
-Certainly! In Lesson 2, which focused on basic syntax, printing in C++, and introducing the console system, an interesting point that might have been missed could be the discussion of character encoding and how it affects text output.
-
 ### Character Encoding in C++
 
 Character encoding is a method used to represent characters using binary code. In C++, understanding character encoding can be essential, especially when dealing with internationalization or working with non-ASCII characters.
-
-Here's a brief overview that could be added to Lesson 2:
 
 - **ASCII**: The American Standard Code for Information Interchange (ASCII) is a 7-bit character encoding standard that includes English letters, digits, and common symbols. It's widely supported but limited to a small character set.
 
@@ -295,13 +291,9 @@ C++11 introduced the `auto` keyword, allowing the compiler to automatically dedu
 auto name = "Anita"; // deduced as const char*
 ```
 
-Certainly! In Lesson 3, which focused on variables and data types in C++, an interesting point that might have been missed could be the discussion of type inference and the `auto` keyword, along with the importance of strong typing.
-
 ### Type Inference and Strong Typing in C++
 
 Understanding how to declare variables with explicit types is fundamental, but modern C++ also offers type inference, allowing the compiler to deduce the type of a variable based on its initialization.
-
-Here's an overview that could be added to Lesson 3:
 
 - **Type Inference with `auto`**: Introduced in C++11, the `auto` keyword allows the compiler to automatically deduce the type of a variable from its initializer. This can make code more concise and maintainable, especially when dealing with complex types.
 
@@ -429,11 +421,9 @@ int main() {
 
 When working with text, you can use the `std::string` data type. It allows you to store and manipulate strings easily.
 
-Certainly! Lesson 4 focused on user input and output, handling user input, and formatting output. An interesting point that might have been missed could be the discussion of error handling related to user input, input validation, and the use of input streams.
-
 ### Error Handling and Input Validation in C++
 
-User input is often unpredictable, and handling incorrect or unexpected input is a crucial aspect of robust programming. Here's an overview that could be added to Lesson 4:
+User input is often unpredictable, and handling incorrect or unexpected input is a crucial aspect of robust programming. 
 
 - **Input Validation**: Ensuring that the input meets specific criteria before processing it. For example, checking that a number is within a certain range or that a string follows a particular format.
 
@@ -556,8 +546,7 @@ In the next lesson, we'll delve into conditional statements and loops, further e
    - D) `#import <string>`
    - **Answer: B**
 
-—
-
+---
 
 ### Lesson 5: Conditional Statements and Loops in C++
 
@@ -594,8 +583,6 @@ for (initialization; condition; increment) {
 Having initialization, invariant, and increment in the same instruction is crucial for debugging purposes. It encapsulates the loop's control logic, making it easier to understand and maintain.
 
 ### Switch Statements, Break/Continue, and Scope in C++
-
-Here's an overview that could be added to Lesson 5:
 
 - **Switch Statements**: The `switch` statement provides a way to handle multiple conditions based on the value of an expression. It can be more concise than a series of `if-else` statements for specific cases.
 
@@ -847,8 +834,6 @@ Functional programming emphasizes the use of pure functions, immutability, and d
 
 ### Function Overloading, Default Arguments, Inline Functions, and Function Pointers in C++
 
-Here's an overview that could be added to Lesson 6:
-
 - **Function Overloading**: C++ allows defining multiple functions with the same name but different parameters. This enables more flexible and intuitive function usage.
 
   ```cpp
@@ -956,7 +941,7 @@ In the next lesson, we'll explore arrays, smart pointers, and modern containers,
    - D) Enhances maintainability
    - **Answer: C**
 
-—
+---
 
 ### Lesson 7: Arrays and Smart Pointers in C++
 
@@ -1027,8 +1012,6 @@ Modern C++ has introduced several enhancements that lead to better quality softw
 - **Flexibility**: Modern C++ offers versatile tools for various programming paradigms.
 
 ### Range-Based Loops, `std::array`, `std::make_shared`, `std::make_unique`, and Ownership Semantics in C++
-
-Here's an overview that could be added to Lesson 7:
 
 - **Range-Based Loops**: Modern C++ introduced range-based `for` loops, which simplify iterating over containers like arrays and vectors.
 
@@ -1135,7 +1118,6 @@ In the next lesson, we'll delve into Object-Oriented Programming (OOP) in C++, e
 
 ---
 
-
 ### Lesson 8: Object-Oriented Programming (OOP) in C++
 
 #### Introduction
@@ -1202,8 +1184,6 @@ The Open/Close Pattern is a fundamental principle in OOP that states:
 This pattern promotes stability, flexibility, and maintainability in software design.
 
 ### Composition vs. Inheritance, Access Specifiers, Encapsulation, Rule of Three, and Rule of Five in C++
-
-Here's an overview that could be added to Lesson 8:
 
 - **Composition vs. Inheritance**: Understanding when to use composition (combining simple objects to create more complex ones) instead of inheritance can lead to more flexible and maintainable code.
 
