@@ -1201,6 +1201,58 @@ The Open/Close Pattern is a fundamental principle in OOP that states:
 
 This pattern promotes stability, flexibility, and maintainability in software design.
 
+### Composition vs. Inheritance, Access Specifiers, Encapsulation, Rule of Three, and Rule of Five in C++
+
+Here's an overview that could be added to Lesson 8:
+
+- **Composition vs. Inheritance**: Understanding when to use composition (combining simple objects to create more complex ones) instead of inheritance can lead to more flexible and maintainable code.
+
+  ```cpp
+  class Engine { /* ... */ };
+  class Car {
+      Engine engine; // Composition
+      // ...
+  };
+  ```
+
+- **Access Specifiers**: Explaining the different access levels (`public`, `protected`, `private`) and their importance in encapsulation.
+
+  ```cpp
+  class MyClass {
+  public:
+      // Public members
+  private:
+      // Private members
+  };
+  ```
+
+- **Encapsulation**: The practice of hiding the internal state and requiring all interactions to occur through well-defined interfaces.
+
+- **Rule of Three**: In C++03, if a class needed to define one of the following special member functions, it likely needed to define all three: destructor, copy constructor, copy assignment operator.
+
+- **Rule of Five**: In C++11 and later, with the addition of move semantics, the rule of three became the rule of five, adding the move constructor and move assignment operator.
+
+  ```cpp
+  class MyClass {
+  public:
+      MyClass(); // Constructor
+      ~MyClass(); // Destructor
+      MyClass(const MyClass& other); // Copy constructor
+      MyClass& operator=(const MyClass& other); // Copy assignment operator
+      MyClass(MyClass&& other); // Move constructor (C++11)
+      MyClass& operator=(MyClass&& other); // Move assignment operator (C++11)
+  };
+  ```
+
+- **Interfaces and Abstract Classes**: A deeper dive into creating interfaces using pure virtual functions and abstract classes.
+
+  ```cpp
+  class Shape {
+  public:
+      virtual void draw() const = 0; // Pure virtual function
+  };
+  ```
+
 #### Conclusion
 
 Object-Oriented Programming in C++ provides a powerful way to structure code, promoting reusability, maintainability, and flexibility. Understanding the principles, utilizing pure virtual methods, and being mindful of potential design challenges are key to effective OOP in C++.
