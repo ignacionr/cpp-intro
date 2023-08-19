@@ -22,6 +22,20 @@ C++ is a powerful and versatile programming language that offers a blend of high
 
 In this lesson, we'll explore how to set up your C++ development environment, including understanding the compile and link phases, basic command-line parameters for the compiler, and choosing an editor.
 
+#### C++ Standards and Their Evolution
+
+C++ has seen several significant updates since its inception, each introducing new features, improvements, and changes to the language. Understanding the different standards can be crucial, especially when working on various projects that might require compatibility with different versions of C++.
+
+Here's a brief overview of some key C++ standards:
+
+- **C++98 / C++03**: The first standardized versions of C++, laying the foundation for modern C++ programming.
+- **C++11**: A major update that introduced features like lambda expressions, range-based for loops, smart pointers, and more.
+- **C++14**: A smaller update with improvements and refinements to C++11 features.
+- **C++17**: Introduced features like structured bindings, `std::optional`, `std::variant`, and the filesystem library.
+- **C++20**: The latest standard (as of the knowledge cut-off date) with concepts, ranges, coroutines, and more.
+
+Understanding the differences between these standards and how to specify the desired standard when compiling can be essential for both new and experienced C++ developers. It ensures that the code is portable and takes advantage of the latest language features when appropriate.
+
 #### Compile and Link Phases
 
 1. **Compile Phase**: The compiler translates the C++ source code into machine code or object code. This phase checks for syntax errors and converts the high-level code into a format that the computer can understand.
