@@ -12,9 +12,7 @@ So, let's embark on this journey together. Let's rediscover the childlike wonder
 
 Welcome to the world of C++, where creativity meets logic, and where you'll find both challenges and triumphs. Let's get started!
 
-Certainly, Ignacio! Here's Lesson 1, covering the setup of the C++ environment, including an explanation of the compile and link phases, basic command-line parameters for the compiler, the use of Visual Studio Code, and instructions for installing a C++ compiler on various operating systems.
-
-—
+---
 
 ### Lesson 1: Setting Up C++ Environment
 
