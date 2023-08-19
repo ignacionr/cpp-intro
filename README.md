@@ -312,14 +312,6 @@ Type modifiers allow you to alter the storage of a data type. Some common modifi
 - `long`: Increases the size of the data type
 - `short`: Decreases the size of the data type
 
-#### Auto Keyword
-
-C++11 introduced the `auto` keyword, allowing the compiler to automatically deduce the type of a variable:
-
-```cpp
-auto name = "Anita"; // deduced as const char*
-```
-
 ### Type Inference and Strong Typing in C++
 
 Understanding how to declare variables with explicit types is fundamental, but modern C++ also offers type inference, allowing the compiler to deduce the type of a variable based on its initialization.
@@ -329,7 +321,7 @@ Understanding how to declare variables with explicit types is fundamental, but m
   ```cpp
   auto x = 42; // int
   auto y = 3.14; // double
-  auto name = "Ignacio"; // const char*
+  auto name = "Anita"; // const char*
   ```
 
 - **Strong Typing**: C++ is a strongly typed language, meaning that the type of a variable is known at compile time and must be adhered to. This helps catch errors early and promotes code safety.
