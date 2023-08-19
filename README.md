@@ -62,8 +62,6 @@ Visual Studio Code (VS Code) is an excellent and free-to-use code editor that su
 
 #### Installing a C++ Compiler
 
-Certainly! Here's the updated instruction for setting up the C++ environment on Windows using Windows Subsystem for Linux (WSL) 2:
-
 #### Windows
 
 1. **Install Windows Subsystem for Linux (WSL) 2**:
